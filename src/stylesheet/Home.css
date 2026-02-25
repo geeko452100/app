@@ -1,0 +1,41 @@
+/* Formatting for background video */
+#typingVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+    opacity: 70%
+}
+
+/* Don't display the background video 
+for screen sizes less than or equal to 576px */
+@media screen and (max-width: 576px) {
+    #Typing_Video {
+        display: none;
+    }
+}
+
+h1 {
+    margin: 10%;
+    text-align: center;
+}
+
+h1:hover, p:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+p {
+    justify-content: center;
+    text-align: center;
+    border: .333rem solid darkgray;
+    border-radius: 8px;
+    margin: 5%;
+    font-size: 18px;
+}
+
+q {
+    font-size: 20px;
+    font-style: italic;
+}

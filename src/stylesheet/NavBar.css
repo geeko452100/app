@@ -1,0 +1,60 @@
+/**** NAVBAR STYLING ****/
+
+.Navbar {
+    overflow: hidden; 
+    background-color: black; 
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1; 
+    -webkit-animation: moveNav 2s; 
+    animation: moveNav 2s; 
+}
+
+/* Add movement to the NavBar (FROM LEFT) */
+@keyframes moveNav {
+    from {left: -100vw;} 
+    to {left: 0vw;} 
+}
+
+/* Navbar links */
+.Navbar a {
+    float: left; 
+    display: block; 
+    color: white; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-family: Avant Garde, Helvetica; 
+    font-size: 20px; 
+    text-align: center; 
+    position: relative; 
+    -webkit-animation: moveNavText 3.5s; 
+    animation: moveNavText 3.5s; 
+}
+
+/* Add movement to the NavBar (FROM TOP) */
+@keyframes moveNavText {
+    from {top: -100vw;}
+    to {top: 0vw;} 
+}
+
+/*Evenly disperse the navbar across different screen sizes */
+@media screen and (max-width: 576px) {
+    .Navbar a{
+        width: 25%; 
+        font-size: 12px;
+    }
+}
+
+/* Navbar hover effects */
+.Navbar a:hover {
+    background-color: #f4f4f4; 
+    color: black;  
+    font-weight: bold; 
+}
+
+/* Navbar home button */
+.Navbar a.active { 
+    background-color: darkgrey;
+}
+
