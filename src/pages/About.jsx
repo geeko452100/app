@@ -4,7 +4,7 @@ import '/src/stylesheet/About.css'
 function About() {
     return (
       <div id="aboutBody">
-          <img src="app/public/assets/me.jpg" alt="A young man in a suit looking confidently into the camera." />
+          <img src="/src/assets/me.jpg" alt="A young man in a suit looking confidently into the camera." />
               <h1>About Me</h1>
                 <p>I'm an aspiring junior full-stack developer who strives to ask the bigger question: <b>Why?</b>
                   <br /> As a naturally curious person, I always think of Einstein's famous words:

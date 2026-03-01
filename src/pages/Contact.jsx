@@ -25,7 +25,7 @@ const Contact = () => {
     }
     return(
     <div id="contact">
-        <img src="app/public/assets/contact.jpg" alt="Contact_Image" />
+        <img src="/src/assets/contact.jpg" alt="Contact_Image" />
           <h1>Contact</h1>
               <form ref={form} onSubmit={sendEmail}>
                 <ul>

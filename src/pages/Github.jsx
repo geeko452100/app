@@ -5,7 +5,7 @@ function Github() {
     return (        
         <div id="github">
             <h1>GitHub</h1>
-                <img src="app/public/assets/GitHub.png" />
+                <img src="/src/assets/GitHub.png" />
               <p className="center">You can view my coding projects on my GitHub profile here:
             <br />
                 <a href="https://github.com/geeko452100" target="_blank">geeko452100@GitHub</a>

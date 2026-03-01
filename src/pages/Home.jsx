@@ -5,7 +5,7 @@ function Home() {
     return (
       <div className="Background">
         <video autoPlay muted loop id="typingVideo"
-          src="app/public/assets/Typing.mp4" type="video/mp4" />
+          src="/src/assets/Typing.mp4" type="video/mp4" />
               <h1 className="white-text">Gavin T.'s Portfolio </h1>
               <br />
               <p className="center">
